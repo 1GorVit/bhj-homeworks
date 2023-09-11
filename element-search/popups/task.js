@@ -1,4 +1,4 @@
-onst modalMain = document.getElementById("modal_main");
+const modalMain = document.getElementById("modal_main");
 if (modalMain.className == "modal") {
 modalMain.className = "modal modal_active";
 }
@@ -24,5 +24,3 @@ if (modalSuccess.className == "modal") {
      }
    }       
 })
-
- 
